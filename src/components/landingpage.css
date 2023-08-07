@@ -1,0 +1,10 @@
+.pdf-container {
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+   .react-pdf__Page {
+    display: block;
+    margin: 0 auto;
+  }
