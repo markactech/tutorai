@@ -8,7 +8,7 @@ function Heropage() {
     navigate("/search")
   }
   return (
-    <div className="bg-dark text-secondary px-4 py-5 text-center">
+    <div className="bg-dark text-secondary px-4 py-5 text-center" id="home">
       <div className="py-5">
         <h1 className="display-5 fw-bold text-white">Simplified learning using AI</h1>
         <div className="col-lg-6 mx-auto">

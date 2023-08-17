@@ -1,4 +1,5 @@
 import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { NavLink } from 'react-router-dom'
 
 function Header() {
@@ -13,10 +14,10 @@ function Header() {
       <div className="collapse navbar-collapse" id="navbarsExample03">
       <ul className="navbar-nav mx-auto mb-2 mb-sm-0    me-sm-3 fw-bold">  
   <li className="nav-item   me-sm-3">
-    <NavLink className="nav-link " to="/">Home</NavLink>
+  <AnchorLink href='#home' className='text-decoration-none'><NavLink className="nav-link ">Home</NavLink></AnchorLink>
   </li>
 
-  <li className="nav-item    me-sm-3 dropdown">
+  <li className="nav-item  me-sm-3 dropdown">
     <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Subjects</a>
     <ul className="dropdown-menu">
       <li><a className="dropdown-item" href="#">Maths</a></li>
@@ -25,10 +26,11 @@ function Header() {
     </ul>
   </li>
   <li className="nav-item  me-sm-3 " >
-    <NavLink className="nav-link " to="/">Contact</NavLink>
+  <AnchorLink className='text-decoration-none' href='#contact'><NavLink className="nav-link ">Contact</NavLink></AnchorLink>
   </li>
   <li className="nav-item  me-sm-3">
-    <NavLink className="nav-link " to="#about">About</NavLink>
+  <AnchorLink className='text-decoration-none' href='#about'><NavLink className="nav-link ">About</NavLink></AnchorLink>
+
   </li>
 </ul>
 
